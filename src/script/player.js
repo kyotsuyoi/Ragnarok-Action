@@ -130,7 +130,7 @@ class Player{
         context.fillStyle = '#00000055'
         context.fill()
 
-        this.areaDebug(true)
+        this.areaDebug(false)
 
         this.body_center_x = (this.position.x + this.width/2) - (this.currentPosition.width/2)
         this.body_center_y = (this.position.y + this.height - this.currentPosition.cropHeight)
